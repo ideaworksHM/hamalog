@@ -1,2 +1,2 @@
-# hama
+# hamalog
 
