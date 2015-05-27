@@ -1,0 +1,14 @@
+/* スクロール用 */
+thead.scrollHead, tbody.scrollBody {
+  display: block ;
+}
+tbody.scrollBody {
+  overflow-y: scroll ;
+  height: 200px ;
+}
+thead.scrollHead td,
+tbody.scrollBody td,
+thead.scrollHead th,
+tbody.scrollBody th {
+  table-layout: fixed ;
+}
