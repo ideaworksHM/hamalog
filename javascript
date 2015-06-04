@@ -10,7 +10,7 @@ function ajaxSearch(postdata, callback) {
     cache: false,
     async: true,
     data: postdata,
-    dataType: "text",
+    dataType: "json",
     success: callback
   });
 }
