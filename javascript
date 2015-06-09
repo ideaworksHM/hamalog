@@ -14,3 +14,11 @@ function ajaxSearch(postdata, callback) {
     success: callback
   });
 }
+
+$(function() {
+  $(".test").click(function(){
+    $(this).parent().parent().find(":text, :hidden").val('') ;
+    $(this).parent().parent().find("span").html('') ;
+    $(this).parent().parent().find(".xxx1, xxx2").removeClass('xxx1, xxx2') ;
+  });
+});
